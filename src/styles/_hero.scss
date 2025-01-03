@@ -1,3 +1,5 @@
+@use 'variables';
+
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
@@ -16,7 +18,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #000;
+        background-color: variables.$secondaryTextColor;
         content: '';
         opacity: 0.7;
     }
@@ -24,10 +26,10 @@
     &__text {
         margin-top: 64px;
         margin-bottom: 64px;
-        font: Roboto;
         font-size: 40px;
         font-weight: 800;
         text-align: center;
+        line-height: 56px;
 
     }
 
@@ -41,7 +43,7 @@
         padding: 40px 0;
 
         &__logo {
-            height: 24px;
+            height: 40px;
         }
 
         &__text {
