@@ -1,0 +1,15 @@
+@use 'variabless';
+
+footer {
+    .footer {
+        &__text {
+            text-align: center; /* Centraliza o texto horizontalmente */
+            margin: 20px auto; /* Adiciona margem superior e inferior */
+            padding: 10px; /* Adiciona espaçamento interno */
+            font-size: 1.2rem; /* Ajusta o tamanho da fonte */
+            line-height: 1.5; /* Melhora o espaçamento entre linhas */
+            color: variabless.$textColor; /* Usa a variável para cor do texto */
+            max-width: 800px; /* Define uma largura máxima para o texto */
+        }
+    }
+}
